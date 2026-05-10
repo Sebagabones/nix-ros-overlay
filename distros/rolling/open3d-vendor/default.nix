@@ -15,7 +15,7 @@ buildRosPackage {
 
   buildType = "cmake";
   buildInputs = [ cmake ];
-  propagatedBuildInputs = [ libGL libGLU libcxx xorg.libX11 ];
+  propagatedBuildInputs = [ libGL libGLU libcxx libx11 ];
   nativeBuildInputs = [ cmake ];
 
   meta = {

@@ -33,7 +33,7 @@ in clangStdenv.mkDerivation rec {
   ];
 
   nativeBuildInputs = [ jdk python3 doxygen ];
-  buildInputs = [ libusb1 libGLU xorg.libX11 freeglut libjpeg ];
+  buildInputs = [ libusb1 libGLU libx11 freeglut libjpeg ];
 
   outputs = [ "out" "doc" ];
 

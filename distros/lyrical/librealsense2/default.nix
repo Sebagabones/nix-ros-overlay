@@ -15,7 +15,7 @@ buildRosPackage {
 
   buildType = "cmake";
   buildInputs = [ cmake git libusb1 openssl pkg-config udev ];
-  propagatedBuildInputs = [ glfw3 libGL libGLU xorg.libX11 ];
+  propagatedBuildInputs = [ glfw3 libGL libGLU libx11 ];
   nativeBuildInputs = [ cmake ];
 
   meta = {
